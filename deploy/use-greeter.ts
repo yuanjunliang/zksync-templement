@@ -9,7 +9,7 @@ dotenv.config();
 // load contract artifact. Make sure to compile first!
 import * as ContractArtifact from "../artifacts-zk/contracts/Greeter.sol/Greeter.json";
 
-const PRIVATE_KEY = process.env.WALLET_PRIVATE_KEY || "";
+const PRIVATE_KEY = process.env.PRIVATE_KEY || "";
 
 if (!PRIVATE_KEY)
   throw "⛔️ Private key not detected! Add it to the .env file!";

@@ -7,9 +7,13 @@
   "devDependencies": {
     "@matterlabs/hardhat-zksync-deploy": "^0.6.3",
     "@matterlabs/hardhat-zksync-solc": "^0.4.0",
+    "@matterlabs/hardhat-zksync-upgradable": "^0.1.2",
     "@matterlabs/hardhat-zksync-verify": "^0.1.8",
     "@nomiclabs/hardhat-etherscan": "^3.1.7",
+    "@openzeppelin/contracts": "^4.9.3",
+    "@openzeppelin/contracts-upgradeable": "^4.9.3",
     "@openzeppelin/hardhat-upgrades": "^1.27.0",
+    "@openzeppelin/upgrades-core": "1.27.0",
     "@types/chai": "^4.3.4",
     "@types/mocha": "^10.0.1",
     "chai": "^4.3.7",
@@ -25,5 +29,9 @@
     "test": "NODE_ENV=test hardhat test --network zkSyncTestnet",
     "deploy": "yarn hardhat deploy-zksync --script deploy-greeter.ts",
     "greet": "yarn hardhat deploy-zksync --script use-greeter.ts"
+  },
+  "dependencies": {
+    "@nomicfoundation/hardhat-foundry": "^1.0.3",
+    "log4js": "^6.9.1"
   }
 }

@@ -1,0 +1,136 @@
+{
+  "manifestVersion": "3.2",
+  "proxies": [
+    {
+      "address": "0x89bA32a125A1F07DB41B0f5efD40e145FEE3581D",
+      "txHash": "0x9d9c4a8e2534a61341dc7dd9730aba66320ab80a7e27894726d59793f24eda36",
+      "kind": "uups"
+    }
+  ],
+  "impls": {
+    "bd7b423ff6ec8d263e0f5cb7b7466099a9124e50cf1887790434fb1206aca6d6": {
+      "address": "0xa5C399D98cd6F511943ca0542E3879C049f95518",
+      "txHash": "0x3e4c1f755f1b68f17c9cec3b233ef6f00d9a37f9b5b91e9f3b211e443b2c21cc",
+      "layout": {
+        "solcVersion": "0.8.17",
+        "storage": [
+          {
+            "label": "_initialized",
+            "offset": 0,
+            "slot": "0",
+            "type": "t_uint8",
+            "contract": "Initializable",
+            "src": "@openzeppelin/contracts-upgradeable/proxy/utils/Initializable.sol:63",
+            "retypedFrom": "bool"
+          },
+          {
+            "label": "_initializing",
+            "offset": 1,
+            "slot": "0",
+            "type": "t_bool",
+            "contract": "Initializable",
+            "src": "@openzeppelin/contracts-upgradeable/proxy/utils/Initializable.sol:68"
+          },
+          {
+            "label": "__gap",
+            "offset": 0,
+            "slot": "1",
+            "type": "t_array(t_uint256)50_storage",
+            "contract": "ContextUpgradeable",
+            "src": "@openzeppelin/contracts-upgradeable/utils/ContextUpgradeable.sol:36"
+          },
+          {
+            "label": "_owner",
+            "offset": 0,
+            "slot": "51",
+            "type": "t_address",
+            "contract": "OwnableUpgradeable",
+            "src": "@openzeppelin/contracts-upgradeable/access/OwnableUpgradeable.sol:22"
+          },
+          {
+            "label": "__gap",
+            "offset": 0,
+            "slot": "52",
+            "type": "t_array(t_uint256)49_storage",
+            "contract": "OwnableUpgradeable",
+            "src": "@openzeppelin/contracts-upgradeable/access/OwnableUpgradeable.sol:94"
+          },
+          {
+            "label": "__gap",
+            "offset": 0,
+            "slot": "101",
+            "type": "t_array(t_uint256)50_storage",
+            "contract": "ERC1967UpgradeUpgradeable",
+            "src": "@openzeppelin/contracts-upgradeable/proxy/ERC1967/ERC1967UpgradeUpgradeable.sol:169"
+          },
+          {
+            "label": "__gap",
+            "offset": 0,
+            "slot": "151",
+            "type": "t_array(t_uint256)50_storage",
+            "contract": "UUPSUpgradeable",
+            "src": "@openzeppelin/contracts-upgradeable/proxy/utils/UUPSUpgradeable.sol:111"
+          },
+          {
+            "label": "feeOn",
+            "offset": 0,
+            "slot": "201",
+            "type": "t_bool",
+            "contract": "BatchTransferUpgradeable",
+            "src": "contracts/BatchTransferUpgradeable.sol:11"
+          },
+          {
+            "label": "feeTo",
+            "offset": 1,
+            "slot": "201",
+            "type": "t_address",
+            "contract": "BatchTransferUpgradeable",
+            "src": "contracts/BatchTransferUpgradeable.sol:12"
+          },
+          {
+            "label": "fee",
+            "offset": 0,
+            "slot": "202",
+            "type": "t_uint256",
+            "contract": "BatchTransferUpgradeable",
+            "src": "contracts/BatchTransferUpgradeable.sol:13"
+          },
+          {
+            "label": "__gap",
+            "offset": 0,
+            "slot": "203",
+            "type": "t_array(t_uint256)49_storage",
+            "contract": "BatchTransferUpgradeable",
+            "src": "contracts/BatchTransferUpgradeable.sol:15"
+          }
+        ],
+        "types": {
+          "t_address": {
+            "label": "address",
+            "numberOfBytes": "20"
+          },
+          "t_array(t_uint256)49_storage": {
+            "label": "uint256[49]",
+            "numberOfBytes": "1568"
+          },
+          "t_array(t_uint256)50_storage": {
+            "label": "uint256[50]",
+            "numberOfBytes": "1600"
+          },
+          "t_bool": {
+            "label": "bool",
+            "numberOfBytes": "1"
+          },
+          "t_uint256": {
+            "label": "uint256",
+            "numberOfBytes": "32"
+          },
+          "t_uint8": {
+            "label": "uint8",
+            "numberOfBytes": "1"
+          }
+        }
+      }
+    }
+  }
+}
